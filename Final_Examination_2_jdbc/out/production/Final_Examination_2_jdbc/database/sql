@@ -1,0 +1,20 @@
+
+create database FinalExamination;
+
+use FinalExamination;
+
+create table employee(
+        name varchar(10) not null,
+        id int not null auto_increment primary key,
+        sex char(1) not null,
+        age tinyint(100) not null ) comment = 'table employee';
+
+insert into employee(name,id,sex,age) values('name',id,'sex',age);
+
+delete from employee where name='name' and id=id;
+
+update employee set name='name',id=id,sex='sex',age=age where name='name' and id=id;
+
+select * from employee where name='name' and id=id;
+
+select * from employee;
